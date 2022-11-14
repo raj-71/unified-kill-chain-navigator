@@ -1,0 +1,4376 @@
+[
+  {
+    "id": "01",
+    "mitreId": "TA0043",
+    "name": "Reconnaissance",
+    "color": "#70ad47",
+    "techniques": [
+      {
+        "tId": "t01",
+        "mitreId": "T1595",
+        "name": "Active Scanning",
+        "subTechniques": [
+          {
+            "stId": "st01",
+            "mitreId": "001",
+            "name": "Scanning IP Blocks"
+          },
+          {
+            "stId": "st02",
+            "mitreId": "002",
+            "name": "Vulnerability Scanning"
+          },
+          {
+            "stId": "st03",
+            "mitreId": "003",
+            "name": "Wordlist Scanning"
+          }
+        ]
+      },
+      {
+        "tId": "t02",
+        "mitreId": "T1592",
+        "name": "Gather Victim Host Information",
+        "subTechniques": [
+          {
+            "stId": "st04",
+            "mitreId": "001",
+            "name": "Hardware"
+          },
+          {
+            "stId": "st05",
+            "mitreId": "002",
+            "name": "Software"
+          },
+          {
+            "stId": "st06",
+            "mitreId": "003",
+            "name": "Firmware"
+          },
+          {
+            "stId": "st07",
+            "mitreId": "004",
+            "name": "Client Configurations"
+          }
+        ]
+      },
+      {
+        "tId": "t03",
+        "mitreId": "T1589",
+        "name": "Gather Victim Identity Information",
+        "subTechniques": [
+          {
+            "stId": "st08",
+            "mitreId": "001",
+            "name": "Credentials"
+          },
+          {
+            "stId": "st09",
+            "mitreId": "002",
+            "name": "Email Addresses"
+          },
+          {
+            "stId": "st10",
+            "mitreId": "003",
+            "name": "Employee Names"
+          }
+        ]
+      },
+      {
+        "tId": "t04",
+        "mitreId": "T1590",
+        "name": "Gather Victim Network Information",
+        "subTechniques": [
+          {
+            "stId": "st11",
+            "mitreId": "001",
+            "name": "Domain Properties"
+          },
+          {
+            "stId": "st12",
+            "mitreId": "002",
+            "name": "DNS"
+          },
+          {
+            "stId": "st13",
+            "mitreId": "003",
+            "name": "Network Trust Dependencies"
+          },
+          {
+            "stId": "st14",
+            "mitreId": "004",
+            "name": "Network Topology"
+          },
+          {
+            "stId": "st15",
+            "mitreId": "005",
+            "name": "IP Addresses"
+          },
+          {
+            "stId": "st16",
+            "mitreId": "006",
+            "name": "Network Security Appliances"
+          }
+        ]
+      },
+      {
+        "tId": "t05",
+        "mitreId": "T1591",
+        "name": "Gather Victim Org Information",
+        "subTechniques": [
+          {
+            "stId": "st17",
+            "mitreId": "001",
+            "name": "Determine Physical Locations"
+          },
+          {
+            "stId": "st18",
+            "mitreId": "002",
+            "name": "Business Relationships"
+          },
+          {
+            "stId": "st19",
+            "mitreId": "003",
+            "name": "Identify Business Tempo"
+          },
+          {
+            "stId": "st20",
+            "mitreId": "004",
+            "name": "Identify Roles"
+          }
+        ]
+      },
+      {
+        "tId": "t06",
+        "mitreId": "T1598",
+        "name": "Phishing for Information",
+        "subTechniques": [
+          {
+            "stId": "st21",
+            "mitreId": "001",
+            "name": "Spearphishing Service"
+          },
+          {
+            "stId": "st22",
+            "mitreId": "002",
+            "name": "Spearphishing Attachment"
+          },
+          {
+            "stId": "st23",
+            "mitreId": "003",
+            "name": "Spearphishing Link"
+          }
+        ]
+      },
+      {
+        "tId": "t07",
+        "mitreId": "T159",
+        "name": "Search Closed Sources",
+        "subTechniques": [
+          {
+            "stId": "st24",
+            "mitreId": "001",
+            "name": "Threat Intel Vendors"
+          },
+          {
+            "stId": "st25",
+            "mitreId": "002",
+            "name": "Purchase Technical Data"
+          }
+        ]
+      },
+      {
+        "tId": "t08",
+        "mitreId": "T1596",
+        "name": "Search Open Technical Databases",
+        "subTechniques": [
+          {
+            "stId": "st26",
+            "mitreId": "001",
+            "name": "DNS/Passive DNS"
+          },
+          {
+            "stId": "st27",
+            "mitreId": "002",
+            "name": "WHOIS"
+          },
+          {
+            "stId": "st28",
+            "mitreId": "003",
+            "name": "Digital Certificates"
+          },
+          {
+            "stId": "st29",
+            "mitreId": "004",
+            "name": "CDNs"
+          },
+          {
+            "stId": "st30",
+            "mitreId": "005",
+            "name": "Scan Databases"
+          }
+        ]
+      },
+      {
+        "tId": "t09",
+        "mitreId": "T1593",
+        "name": "Search Open Websites/Domains",
+        "subTechniques": [
+          {
+            "stId": "st31",
+            "mitreId": "001",
+            "name": "Social Media"
+          },
+          {
+            "stId": "st32",
+            "mitreId": "002",
+            "name": "Search Engines"
+          },
+          {
+            "stId": "st33",
+            "mitreId": "003",
+            "name": "Code Repositories"
+          }
+        ]
+      },
+      {
+        "tId": "t10",
+        "mitreId": "T1594",
+        "name": "Search Victim-Owned Websites",
+        "subTechniques": []
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "mitreId": "TA0042",
+    "name": "Weaponization",
+    "color": "#81af3f",
+    "techniques": [
+      {
+        "tId": "t11",
+        "mitreId": "T1583",
+        "name": "Acquire Infrastructure",
+        "subTechniques": [
+          {
+            "stId": "st34",
+            "mitreId": "001",
+            "name": "Domains"
+          },
+          {
+            "stId": "st35",
+            "mitreId": "002",
+            "name": "DNS Server"
+          },
+          {
+            "stId": "st36",
+            "mitreId": "003",
+            "name": "Virtual Private Server"
+          },
+          {
+            "stId": "st37",
+            "mitreId": "004",
+            "name": "Server"
+          },
+          {
+            "stId": "st38",
+            "mitreId": "005",
+            "name": "Botnet"
+          },
+          {
+            "stId": "st339",
+            "mitreId": "006",
+            "name": "Web Service"
+          },
+          {
+            "stId": "st40",
+            "mitreId": "007",
+            "name": "Serverless"
+          }
+        ]
+      },
+      {
+        "tId": "t12",
+        "mitreId": "T1586",
+        "name": "Compromise Accounts",
+        "subTechniques": [
+          {
+            "stId": "st41",
+            "mitreId": "001",
+            "name": "Social Media Accounts"
+          },
+          {
+            "stId": "st42",
+            "mitreId": "002",
+            "name": "Email Accounts"
+          },
+          {
+            "stId": "st43",
+            "mitreId": "003",
+            "name": "Cloud Accounts"
+          }
+        ]
+      },
+      {
+        "tId": "t13",
+        "mitreId": "T1584",
+        "name": "Compromise Infrastructure",
+        "subTechniques": [
+          {
+            "stId": "st44",
+            "mitreId": "001",
+            "name": "Domains"
+          },
+          {
+            "stId": "st45",
+            "mitreId": "002",
+            "name": "DNS Server"
+          },
+          {
+            "stId": "st46",
+            "mitreId": "003",
+            "name": "Virtual Private Server"
+          },
+          {
+            "stId": "st47",
+            "mitreId": "004",
+            "name": "Server"
+          },
+          {
+            "stId": "st48",
+            "mitreId": "005",
+            "name": "Botnet"
+          },
+          {
+            "stId": "st49",
+            "mitreId": "006",
+            "name": "Web Services"
+          },
+          {
+            "stId": "st50",
+            "mitreId": "007",
+            "name": "Serverless"
+          }
+        ]
+      },
+      {
+        "tId": "t14",
+        "mitreId": "T1587",
+        "name": "Develop Capabilities",
+        "subTechniques": [
+          {
+            "stId": "st51",
+            "mitreId": "001",
+            "name": "Malware"
+          },
+          {
+            "stId": "st52",
+            "mitreId": "002",
+            "name": "Code Signing Certificates"
+          },
+          {
+            "stId": "st53",
+            "mitreId": "003",
+            "name": "Digital Certificates"
+          },
+          {
+            "stId": "st54",
+            "mitreId": "004",
+            "name": "Exploits"
+          }
+        ]
+      },
+      {
+        "tId": "t15",
+        "mitreId": "T1585",
+        "name": "Establish Accounts",
+        "subTechniques": [
+          {
+            "stId": "st55",
+            "mitreId": "001",
+            "name": "Social Media Accounts"
+          },
+          {
+            "stId": "st56",
+            "mitreId": "002",
+            "name": "Email Accounts"
+          },
+          {
+            "stId": "st57",
+            "mitreId": "003",
+            "name": "Cloud Accounts"
+          }
+        ]
+      },
+      {
+        "tId": "t16",
+        "mitreId": "T1588",
+        "name": "Obtain Capabilities",
+        "subTechniques": [
+          {
+            "stId": "st58",
+            "mitreId": "001",
+            "name": "Malware"
+          },
+          {
+            "stId": "st59",
+            "mitreId": "002",
+            "name": "Tool"
+          },
+          {
+            "stId": "st60",
+            "mitreId": "003",
+            "name": "Code Signing Certificates"
+          },
+          {
+            "stId": "st61",
+            "mitreId": "004",
+            "name": "Digital Certificates"
+          },
+          {
+            "stId": "st62",
+            "mitreId": "005",
+            "name": "Exploits"
+          },
+          {
+            "stId": "st63",
+            "mitreId": "006",
+            "name": "Vulnerabilities"
+          }
+        ]
+      },
+      {
+        "tId": "t17",
+        "mitreId": "T1608",
+        "name": "Stage Capabilities",
+        "subTechniques": [
+          {
+            "stId": "st64",
+            "mitreId": "001",
+            "name": "Upload Malware"
+          },
+          {
+            "stId": "st65",
+            "mitreId": "002",
+            "name": "Upload Tool"
+          },
+          {
+            "stId": "st66",
+            "mitreId": "003",
+            "name": "Install Digital Certificate"
+          },
+          {
+            "stId": "st67",
+            "mitreId": "004",
+            "name": "Drive-by Target"
+          },
+          {
+            "stId": "st68",
+            "mitreId": "005",
+            "name": "Link Target"
+          },
+          {
+            "stId": "st69",
+            "mitreId": "006",
+            "name": "SEO Poisoning"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "mitreId": "TA0001",
+    "name": "Delivery",
+    "color": "#93b136",
+    "techniques": [
+      {
+        "tId": "t18",
+        "mitreId": "T1190",
+        "name": "Exploit Public-Facing Application",
+        "subTechniques": []
+      },
+      {
+        "tId": "t19",
+        "mitreId": "T1133",
+        "name": "External Remote Services",
+        "subTechniques": []
+      },
+      {
+        "tId": "t20",
+        "mitreId": "T1200",
+        "name": "Hardware Addition",
+        "subTechniques": []
+      },
+      {
+        "tId": "t21",
+        "mitreId": "T1091",
+        "name": "Replication Through Removable Media",
+        "subTechniques": []
+      },
+      {
+        "tId": "t22",
+        "mitreId": "T1195",
+        "name": "Supply Chain Compromise",
+        "subTechniques": [
+          {
+            "stId": "st70",
+            "mitreId": "001",
+            "name": "Compromise Software Dependencies and Development Tools"
+          },
+          {
+            "stId": "st71",
+            "mitreId": "002",
+            "name": "Compromise Software Supply Chain"
+          },
+          {
+            "stId": "st72",
+            "mitreId": "003",
+            "name": "Compromise Hardware Supply Chain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "mitreId": "TA0001",
+    "name": "Social Engineering",
+    "color": "#a5b42d",
+    "techniques": [
+      {
+        "tId": "t23",
+        "mitreId": "T1566",
+        "name": "Phishing",
+        "subTechniques": [
+          {
+            "stId": "st73",
+            "mitreId": "001",
+            "name": "Spearphishing Attachment"
+          },
+          {
+            "stId": "st74",
+            "mitreId": "002",
+            "name": "Spearphishing Link"
+          },
+          {
+            "stId": "st75",
+            "mitreId": "003",
+            "name": "Spearphishing Via Service"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "mitreId": "",
+    "name": "Exploitation",
+    "color": "#b7b624",
+    "techniques": [
+      {
+        "tId": "t24",
+        "mitreId": "T1210",
+        "name": "Exploitation of Remote Services",
+        "subTechniques": []
+      },
+      {
+        "tId": "t25",
+        "mitreId": "T1212",
+        "name": "Exploitation for Credential Access",
+        "subTechniques": []
+      },
+      {
+        "tId": "t26",
+        "mitreId": "T1211",
+        "name": "Exploitation for Defense Evasion",
+        "subTechniques": []
+      },
+      {
+        "tId": "t27",
+        "mitreId": "T1068",
+        "name": "Exploitation for Privilege Escalation",
+        "subTechniques": []
+      },
+      {
+        "tId": "t28",
+        "mitreId": "T1203",
+        "name": "Exploitation for Client Execution",
+        "subTechniques": []
+      },
+      {
+        "tId": "t29",
+        "mitreId": "T1190",
+        "name": "Exploit Public-Facing Application",
+        "subTechniques": []
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "mitreId": "TA0003",
+    "name": "Persistence",
+    "color": "#c9b81b",
+    "techniques": [
+      {
+        "tId": "t30",
+        "mitreId": "T1098",
+        "name": "Account Manipulation",
+        "subTechniques": [
+          {
+            "stId": "st76",
+            "mitreId": "001",
+            "name": "Additional Cloud Credentials"
+          },
+          {
+            "stId": "st77",
+            "mitreId": "002",
+            "name": "Additional Email Delegate Permissions"
+          },
+          {
+            "stId": "st78",
+            "mitreId": "003",
+            "name": "Additional Cloud Roles"
+          },
+          {
+            "stId": "st79",
+            "mitreId": "004",
+            "name": "SSH Authorized Keys"
+          },
+          {
+            "stId": "st80",
+            "mitreId": "005",
+            "name": "Device Registration"
+          }
+        ]
+      },
+      {
+        "tId": "t31",
+        "mitreId": "T1197",
+        "name": "BITS Jobs",
+        "subTechniques": []
+      },
+      {
+        "tId": "t32",
+        "mitreId": "T1547",
+        "name": "Boot or Logon Autostart Execution",
+        "subTechniques": [
+          {
+            "stId": "st81",
+            "mitreId": "001",
+            "name": "Registry Run Keys / Startup Folder"
+          },
+          {
+            "stId": "st82",
+            "mitreId": "002",
+            "name": "Authentication Package"
+          },
+          {
+            "stId": "st83",
+            "mitreId": "003",
+            "name": "Time Providers"
+          },
+          {
+            "stId": "st84",
+            "mitreId": "004",
+            "name": "Winlogon Helper DLL"
+          },
+          {
+            "stId": "st85",
+            "mitreId": "005",
+            "name": "Security Support Provider"
+          },
+          {
+            "stId": "st86",
+            "mitreId": "006",
+            "name": "Kernel Modules and Extensions"
+          },
+          {
+            "stId": "st87",
+            "mitreId": "007",
+            "name": "Re-opened Applications"
+          },
+          {
+            "stId": "st88",
+            "mitreId": "008",
+            "name": "LSASS Driver"
+          },
+          {
+            "stId": "st89",
+            "mitreId": "009",
+            "name": "Shortcut Modification"
+          },
+          {
+            "stId": "st90",
+            "mitreId": "010",
+            "name": "Port Monitors"
+          },
+          {
+            "stId": "st91",
+            "mitreId": "011",
+            "name": "Print Processors"
+          },
+          {
+            "stId": "st92",
+            "mitreId": "012",
+            "name": "XDG Autostart Entries"
+          },
+          {
+            "stId": "st93",
+            "mitreId": "013",
+            "name": "Active Setup"
+          },
+          {
+            "stId": "st94",
+            "mitreId": "014",
+            "name": "Login Items"
+          }
+        ]
+      },
+      {
+        "tId": "t33",
+        "mitreId": "T1037",
+        "name": "Boot or Logon Initialization Scripts",
+        "subTechniques": [
+          {
+            "stId": "st95",
+            "mitreId": "001",
+            "name": "Logon Script (Windows)"
+          },
+          {
+            "stId": "st96",
+            "mitreId": "002",
+            "name": "Login Hook"
+          },
+          {
+            "stId": "st97",
+            "mitreId": "003",
+            "name": "Network Logon Script"
+          },
+          {
+            "stId": "st98",
+            "mitreId": "004",
+            "name": "RC Scripts"
+          },
+          {
+            "stId": "st99",
+            "mitreId": "005",
+            "name": "Startup Items"
+          }
+        ]
+      },
+      {
+        "tId": "t34",
+        "mitreId": "T1176",
+        "name": "Browser Extensions",
+        "subTechniques": []
+      },
+      {
+        "tId": "t35",
+        "mitreId": "T1554",
+        "name": "Compromise Client Software Binary",
+        "subTechniques": []
+      },
+      {
+        "tId": "t36",
+        "mitreId": "T1136",
+        "name": "Create Account",
+        "subTechniques": [
+          {
+            "stId": "st100",
+            "mitreId": "001",
+            "name": "Local Account"
+          },
+          {
+            "stId": "st101",
+            "mitreId": "002",
+            "name": "Domain Account"
+          },
+          {
+            "stId": "st102",
+            "mitreId": "003",
+            "name": "Cloud Account"
+          }
+        ]
+      },
+      {
+        "tId": "t37",
+        "mitreId": "T1543",
+        "name": "Create or Modify System Process",
+        "subTechniques": [
+          {
+            "stId": "st103",
+            "mitreId": "001",
+            "name": "Launch Agent"
+          },
+          {
+            "stId": "st104",
+            "mitreId": "002",
+            "name": "Systemd Service"
+          },
+          {
+            "stId": "st105",
+            "mitreId": "003",
+            "name": "Windows Service"
+          },
+          {
+            "stId": "st106",
+            "mitreId": "004",
+            "name": "Launch Daemon"
+          }
+        ]
+      },
+      {
+        "tId": "t38",
+        "mitreId": "T1546",
+        "name": "Event Triggered Execution",
+        "subTechniques": [
+          {
+            "stId": "st107",
+            "mitreId": "001",
+            "name": "Change Default File Association"
+          },
+          {
+            "stId": "st108",
+            "mitreId": "002",
+            "name": "Screensaver"
+          },
+          {
+            "stId": "st109",
+            "mitreId": "003",
+            "name": "Windows Management Instrumentation"
+          },
+          {
+            "stId": "st110",
+            "mitreId": "004",
+            "name": "Unix Shell Configuration Modification"
+          },
+          {
+            "stId": "st111",
+            "mitreId": "005",
+            "name": "Trap"
+          },
+          {
+            "stId": "st112",
+            "mitreId": "006",
+            "name": "LC_LOAD_DYLIB Addition"
+          },
+          {
+            "stId": "st113",
+            "mitreId": "007",
+            "name": "Netsh Helper DLL"
+          },
+          {
+            "stId": "st114",
+            "mitreId": "008",
+            "name": "Accessibility Features"
+          },
+          {
+            "stId": "st115",
+            "mitreId": "009",
+            "name": "AppCert DLLs"
+          },
+          {
+            "stId": "st116",
+            "mitreId": "010",
+            "name": "AppInit DLLs"
+          },
+          {
+            "stId": "st117",
+            "mitreId": "011",
+            "name": "Application Shimming"
+          },
+          {
+            "stId": "st118",
+            "mitreId": "012",
+            "name": "Image File Execution Options Injection"
+          },
+          {
+            "stId": "st119",
+            "mitreId": "013",
+            "name": "PowerShell Profile"
+          },
+          {
+            "stId": "st120",
+            "mitreId": "014",
+            "name": "Emond"
+          },
+          {
+            "stId": "st121",
+            "mitreId": "015",
+            "name": "Component Object Model Hijacking"
+          },
+          {
+            "stId": "st122",
+            "mitreId": "016",
+            "name": "Installer Packages"
+          }
+        ]
+      },
+      {
+        "tId": "t39",
+        "mitreId": "T1133",
+        "name": "External Remote Services",
+        "subTechniques": []
+      },
+      {
+        "tId": "t40",
+        "mitreId": "T1574",
+        "name": "Hijack Execution Flow",
+        "subTechniques": [
+          {
+            "stId": "st123",
+            "mitreId": "001",
+            "name": "DLL Search Order Hijacking"
+          },
+          {
+            "stId": "st124",
+            "mitreId": "002",
+            "name": "DLL Side-Loading"
+          },
+          {
+            "stId": "st125",
+            "mitreId": "003",
+            "name": "Dylib Hijacking"
+          },
+          {
+            "stId": "st126",
+            "mitreId": "004",
+            "name": "Executable Installer File Permissions"
+          },
+          {
+            "stId": "st127",
+            "mitreId": "005",
+            "name": "Dynamic Linker Hijacking"
+          },
+          {
+            "stId": "st128",
+            "mitreId": "006",
+            "name": "Path Interception by PATH Environment Variable"
+          },
+          {
+            "stId": "st129",
+            "mitreId": "007",
+            "name": "Path Interception by Search Order Hijacking"
+          },
+          {
+            "stId": "st130",
+            "mitreId": "008",
+            "name": "Path Interception by Unquoted Path"
+          },
+          {
+            "stId": "st131",
+            "mitreId": "009",
+            "name": "Services File Permissions Weakness"
+          },
+          {
+            "stId": "st132",
+            "mitreId": "010",
+            "name": "Services Registry Permissions Weakness"
+          },
+          {
+            "stId": "st133",
+            "mitreId": "011",
+            "name": "COR_PROFILER"
+          },
+          {
+            "stId": "st134",
+            "mitreId": "012",
+            "name": "KernelCallbackTable"
+          }
+        ]
+      },
+      {
+        "tId": "t41",
+        "mitreId": "T1525",
+        "name": "Implant Internal Image",
+        "subTechniques": []
+      },
+      {
+        "tId": "t42",
+        "mitreId": "T1556",
+        "name": "Modify Authentication Process",
+        "subTechniques": [
+          {
+            "stId": "st135",
+            "mitreId": "001",
+            "name": "Domain Controller Authentication"
+          },
+          {
+            "stId": "st136",
+            "mitreId": "002",
+            "name": "Password Filter DLL"
+          },
+          {
+            "stId": "st137",
+            "mitreId": "003",
+            "name": "Pluggable Authentication Modules"
+          },
+          {
+            "stId": "st138",
+            "mitreId": "004",
+            "name": "Network Device Authentication"
+          },
+          {
+            "stId": "st139",
+            "mitreId": "005",
+            "name": "Reversible Encryption"
+          },
+          {
+            "stId": "st140",
+            "mitreId": "006",
+            "name": "Multi-Factor Authentication"
+          },
+          {
+            "stId": "st141",
+            "mitreId": "007",
+            "name": "Hybrid Identity"
+          }
+        ]
+      },
+      {
+        "tId": "t43",
+        "mitreId": "T1137",
+        "name": "Office Application Startup",
+        "subTechniques": [
+          {
+            "stId": "st142",
+            "mitreId": "001",
+            "name": "Office Template Macros"
+          },
+          {
+            "stId": "st143",
+            "mitreId": "002",
+            "name": "Office Test"
+          },
+          {
+            "stId": "st144",
+            "mitreId": "003",
+            "name": "Outlook Forms"
+          },
+          {
+            "stId": "st145",
+            "mitreId": "004",
+            "name": "Outlook Home Page"
+          },
+          {
+            "stId": "st146",
+            "mitreId": "005",
+            "name": "Outlook Rules"
+          },
+          {
+            "stId": "st147",
+            "mitreId": "006",
+            "name": "Add-ins"
+          }
+        ]
+      },
+      {
+        "tId": "t44",
+        "mitreId": "T1542",
+        "name": "Pre-OS Boot",
+        "subTechniques": [
+          {
+            "stId": "st148",
+            "mitreId": "001",
+            "name": "System Firmware"
+          },
+          {
+            "stId": "st149",
+            "mitreId": "002",
+            "name": "Component Firmware"
+          },
+          {
+            "stId": "st150",
+            "mitreId": "003",
+            "name": "Bootkit"
+          },
+          {
+            "stId": "st151",
+            "mitreId": "004",
+            "name": "ROMMONkit"
+          },
+          {
+            "stId": "st152",
+            "mitreId": "005",
+            "name": "TFTP Boot"
+          }
+        ]
+      },
+      {
+        "tId": "t45",
+        "mitreId": "T1053",
+        "name": "Scheduled Task/Job ",
+        "subTechniques": [
+          {
+            "stId": "st153",
+            "mitreId": "001",
+            "name": "At"
+          },
+          {
+            "stId": "st154",
+            "mitreId": "002",
+            "name": "Cron"
+          },
+          {
+            "stId": "st155",
+            "mitreId": "003",
+            "name": "Scheduled Task"
+          },
+          {
+            "stId": "st156",
+            "mitreId": "004",
+            "name": "Systemd Timers"
+          },
+          {
+            "stId": "st157",
+            "mitreId": "005",
+            "name": "Container Orchestration"
+          }
+        ]
+      },
+      {
+        "tId": "t46",
+        "mitreId": "T1505",
+        "name": "Server Software COmponent",
+        "subTechniques": [
+          {
+            "stId": "st158",
+            "mitreId": "001",
+            "name": "SQL Stored Procedures"
+          },
+          {
+            "stId": "st159",
+            "mitreId": "002",
+            "name": "Transport Agent"
+          },
+          {
+            "stId": "st160",
+            "mitreId": "003",
+            "name": "Web Shell"
+          },
+          {
+            "stId": "st161",
+            "mitreId": "004",
+            "name": "IIS Components"
+          },
+          {
+            "stId": "st162",
+            "mitreId": "005",
+            "name": "Terminal Services DLL"
+          }
+        ]
+      },
+      {
+        "tId": "t47",
+        "mitreId": "T1205",
+        "name": "Traffic Signaling",
+        "subTechniques": [
+          {
+            "stId": "st163",
+            "mitreId": "001",
+            "name": "Port Knocking"
+          },
+          {
+            "stId": "st164",
+            "mitreId": "002",
+            "name": "Socket Filters"
+          }
+        ]
+      },
+      {
+        "tId": "t48",
+        "mitreId": "T1078",
+        "name": "Valid Accounts",
+        "subTechniques": [
+          {
+            "stId": "st165",
+            "mitreId": "001",
+            "name": "Default Accounts"
+          },
+          {
+            "stId": "st166",
+            "mitreId": "002",
+            "name": "Domain Accounts"
+          },
+          {
+            "stId": "st167",
+            "mitreId": "003",
+            "name": "Local Accounts"
+          },
+          {
+            "stId": "st168",
+            "mitreId": "004",
+            "name": "Cloud Accounts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "mitreId": "TA0005",
+    "name": "Defense Evasion",
+    "color": "#dbbb12",
+    "techniques": [
+      {
+        "tId": "t49",
+        "mitreId": "T1548",
+        "name": "Abuse Elevation Control Mechanism",
+        "subTechniques": [
+          {
+            "stId": "st169",
+            "mitreId": "001",
+            "name": "Setuid and Setgid"
+          },
+          {
+            "stId": "st170",
+            "mitreId": "002",
+            "name": "Bypass User Account Control"
+          },
+          {
+            "stId": "st171",
+            "mitreId": "003",
+            "name": "Sudo and Sudo Caching"
+          },
+          {
+            "stId": "st172",
+            "mitreId": "004",
+            "name": "Elevated Execution with Prompt"
+          }
+        ]
+      },
+      {
+        "tId": "t50",
+        "mitreId": "T1134",
+        "name": "Access Token Manipulation",
+        "subTechniques": [
+          {
+            "stId": "st173",
+            "mitreId": "001",
+            "name": "Token Impersonation/Theft"
+          },
+          {
+            "stId": "st174",
+            "mitreId": "002",
+            "name": "Create Process with Token"
+          },
+          {
+            "stId": "st175",
+            "mitreId": "003",
+            "name": "Make and Impersonate Token"
+          },
+          {
+            "stId": "st176",
+            "mitreId": "004",
+            "name": "Parent PID Spoofing"
+          },
+          {
+            "stId": "st177",
+            "mitreId": "005",
+            "name": "SID-History Injection"
+          }
+        ]
+      },
+      {
+        "tId": "t51",
+        "mitreId": "T1197",
+        "name": "BITS Jobs",
+        "subTechniques": []
+      },
+      {
+        "tId": "t52",
+        "mitreId": "T1612",
+        "name": "Build Image on Host",
+        "subTechniques": []
+      },
+      {
+        "tId": "t53",
+        "mitreId": "T1622",
+        "name": "Debugger Evasion",
+        "subTechniques": []
+      },
+      {
+        "tId": "t54",
+        "mitreId": "T1140",
+        "name": "Deobfuscate/Decode Files or Information",
+        "subTechniques": []
+      },
+      {
+        "tId": "t55",
+        "mitreId": "T1610",
+        "name": "Deploy Container",
+        "subTechniques": []
+      },
+      {
+        "tId": "t56",
+        "mitreId": "T1006",
+        "name": "Direct Volume Access",
+        "subTechniques": []
+      },
+      {
+        "tId": "t57",
+        "mitreId": "T1484",
+        "name": "Domain Policy Modification",
+        "subTechniques": [
+          {
+            "stId": "st178",
+            "mitreId": "001",
+            "name": "Group Policy Modification"
+          },
+          {
+            "stId": "st179",
+            "mitreId": "002",
+            "name": "Domain Trust Modification"
+          }
+        ]
+      },
+      {
+        "tId": "t58",
+        "mitreId": "T1480",
+        "name": "Execution Guardrails",
+        "subTechniques": [
+          {
+            "stId": "st180",
+            "mitreId": "001",
+            "name": "Environmental Keying"
+          }
+        ]
+      },
+      {
+        "tId": "t59",
+        "mitreId": "T1211",
+        "name": "Exploitation for Defense Evasion",
+        "subTechniques": []
+      },
+      {
+        "tId": "t60",
+        "mitreId": "T1222",
+        "name": "File and Directory Permissions Modification",
+        "subTechniques": [
+          {
+            "stId": "st181",
+            "mitreId": "001",
+            "name": "Windows File and Directory Permissions Modification"
+          },
+          {
+            "stId": "st182",
+            "mitreId": "002",
+            "name": "Linux and Mac File and Directory Permissions Modification"
+          }
+        ]
+      },
+      {
+        "tId": "61",
+        "mitreId": "T1564",
+        "name": "Hide Artifacts",
+        "subTechniques": [
+          {
+            "stId": "st183",
+            "mitreId": "001",
+            "name": "Hidden Files and Directories"
+          },
+          {
+            "stId": "st184",
+            "mitreId": "002",
+            "name": "Hidden Users"
+          },
+          {
+            "stId": "st185",
+            "mitreId": "003",
+            "name": "Hidden Window"
+          },
+          {
+            "stId": "st186",
+            "mitreId": "004",
+            "name": "NTFS File Attributes"
+          },
+          {
+            "stId": "st187",
+            "mitreId": "005",
+            "name": "Hidden File System"
+          },
+          {
+            "stId": "st188",
+            "mitreId": "006",
+            "name": "Run Virtual Instance"
+          },
+          {
+            "stId": "st189",
+            "mitreId": "007",
+            "name": "VBA Stomping"
+          },
+          {
+            "stId": "st190",
+            "mitreId": "008",
+            "name": "Email Hiding Rules"
+          },
+          {
+            "stId": "st191",
+            "mitreId": "009",
+            "name": "Resource Forking"
+          },
+          {
+            "stId": "st192",
+            "mitreId": "010",
+            "name": "Process Argument Spoofing"
+          }
+        ]
+      },
+      {
+        "tId": "t62",
+        "mitreId": "T1574",
+        "name": "Hijack Execution Flow",
+        "subTechniques": [
+          {
+            "stId": "st193",
+            "mitreId": "001",
+            "name": "DLL Search Order Hijacking"
+          },
+          {
+            "stId": "st194",
+            "mitreId": "002",
+            "name": "DLL Side-Loading"
+          },
+          {
+            "stId": "st195",
+            "mitreId": "003",
+            "name": "Dylib Hijacking"
+          },
+          {
+            "stId": "st196",
+            "mitreId": "004",
+            "name": "Executable Installer File Permissions"
+          },
+          {
+            "stId": "st197",
+            "mitreId": "005",
+            "name": "Dynamic Linker Hijacking"
+          },
+          {
+            "stId": "st198",
+            "mitreId": "006",
+            "name": "Path Interception by PATH Environment Variable"
+          },
+          {
+            "stId": "st199",
+            "mitreId": "007",
+            "name": "Path Interception by Search Order Hijacking"
+          },
+          {
+            "stId": "st200",
+            "mitreId": "008",
+            "name": "Path Interception by Unquoted Path"
+          },
+          {
+            "stId": "st201",
+            "mitreId": "009",
+            "name": "Services File Permissions Weakness"
+          },
+          {
+            "stId": "st202",
+            "mitreId": "010",
+            "name": "Services Registry Permissions Weakness"
+          },
+          {
+            "stId": "st203",
+            "mitreId": "011",
+            "name": "COR_PROFILER"
+          },
+          {
+            "stId": "st204",
+            "mitreId": "012",
+            "name": "KernelCallbackTable"
+          }
+        ]
+      },
+      {
+        "tId": "t63",
+        "mitreId": "T1562",
+        "name": "Impair Defenses",
+        "subTechniques": [
+          {
+            "stId": "st205",
+            "mitreId": "001",
+            "name": "Disable or Modify Tools"
+          },
+          {
+            "stId": "st206",
+            "mitreId": "002",
+            "name": "Disable Windows Event Logging"
+          },
+          {
+            "stId": "st207",
+            "mitreId": "003",
+            "name": "Impair Command History Logging"
+          },
+          {
+            "stId": "st208",
+            "mitreId": "004",
+            "name": "Disable or Modify System Firewall"
+          },
+          {
+            "stId": "st209",
+            "mitreId": "005",
+            "name": "Indicator Blocking"
+          },
+          {
+            "stId": "st210",
+            "mitreId": "006",
+            "name": "Disable or Modify Cloud Firewall"
+          },
+          {
+            "stId": "st211",
+            "mitreId": "007",
+            "name": "Disable Cloud Logs"
+          },
+          {
+            "stId": "st212",
+            "mitreId": "008",
+            "name": "Safe Mode Boot"
+          },
+          {
+            "stId": "st213",
+            "mitreId": "009",
+            "name": "Downgrade Attack"
+          }
+        ]
+      },
+      {
+        "tId": "t64",
+        "mitreId": "T1070",
+        "name": "Indicator Removal",
+        "subTechniques": [
+          {
+            "stId": "st214",
+            "mitreId": "001",
+            "name": "Clear Windows Event Logs"
+          },
+          {
+            "stId": "st215",
+            "mitreId": "002",
+            "name": "Clear Linux or Mac System Logs"
+          },
+          {
+            "stId": "st216",
+            "mitreId": "003",
+            "name": "Clear Command History"
+          },
+          {
+            "stId": "st217",
+            "mitreId": "004",
+            "name": "File Deletion"
+          },
+          {
+            "stId": "st218",
+            "mitreId": "005",
+            "name": "Network Share Connection Removal"
+          },
+          {
+            "stId": "st219",
+            "mitreId": "006",
+            "name": "Timestomp"
+          },
+          {
+            "stId": "st220",
+            "mitreId": "007",
+            "name": "Clear Network Connection History and Configurations"
+          },
+          {
+            "stId": "st221",
+            "mitreId": "008",
+            "name": "Clear Mailbox Data"
+          },
+          {
+            "stId": "st222",
+            "mitreId": "009",
+            "name": "Clear Persistence"
+          }
+        ]
+      },
+      {
+        "tId": "t65",
+        "mitreId": "T1202",
+        "name": "Indirect Command Execution",
+        "subTechniques": []
+      },
+      {
+        "tId": "t66",
+        "mitreId": "T1036",
+        "name": "Masquerading",
+        "subTechniques": [
+          {
+            "stId": "st223",
+            "mitreId": "001",
+            "name": "Invalid Code Signature"
+          },
+          {
+            "stId": "st224",
+            "mitreId": "002",
+            "name": "Right-to-Left Override"
+          },
+          {
+            "stId": "st225",
+            "mitreId": "003",
+            "name": "Rename System Utilities"
+          },
+          {
+            "stId": "st226",
+            "mitreId": "004",
+            "name": "Masquerade Task or Service"
+          },
+          {
+            "stId": "st227",
+            "mitreId": "005",
+            "name": "Match Legitimate Name or Location"
+          },
+          {
+            "stId": "st228",
+            "mitreId": "006",
+            "name": "Space after Filename"
+          },
+          {
+            "stId": "st229",
+            "mitreId": "007",
+            "name": "Double File Extension"
+          }
+        ]
+      },
+      {
+        "tId": "t67",
+        "mitreId": "T1556",
+        "name": "Modify Authentication Process",
+        "subTechniques": [
+          {
+            "stId": "st230",
+            "mitreId": "001",
+            "name": "Domain Controller Authentication"
+          },
+          {
+            "stId": "st231",
+            "mitreId": "002",
+            "name": "Password Filter DLL"
+          },
+          {
+            "stId": "st232",
+            "mitreId": "003",
+            "name": "Pluggable Authentication Modules"
+          },
+          {
+            "stId": "st233",
+            "mitreId": "004",
+            "name": "Network Device Authentication"
+          },
+          {
+            "stId": "st234",
+            "mitreId": "005",
+            "name": "Reversible Encryption"
+          },
+          {
+            "stId": "st235",
+            "mitreId": "006",
+            "name": "Multi-Factor Authentication"
+          },
+          {
+            "stId": "st236",
+            "mitreId": "007",
+            "name": "Hybrid Identity"
+          }
+        ]
+      },
+      {
+        "tId": "t68",
+        "mitreId": "T1578",
+        "name": "Modify Cloud Compute Infrastructure",
+        "subTechniques": [
+          {
+            "stId": "st237",
+            "mitreId": "001",
+            "name": "Create Snapshot"
+          },
+          {
+            "stId": "st238",
+            "mitreId": "002",
+            "name": "Create Cloud Instance"
+          },
+          {
+            "stId": "st239",
+            "mitreId": "003",
+            "name": "Delete Cloud Instance"
+          },
+          {
+            "stId": "st240",
+            "mitreId": "004",
+            "name": "Revert Cloud Instance"
+          }
+        ]
+      },
+      {
+        "tId": "t69",
+        "mitreId": "T1112",
+        "name": "Modify Registry",
+        "subTechniques": []
+      },
+      {
+        "tId": "t70",
+        "mitreId": "T1601",
+        "name": "Modify System Image",
+        "subTechniques": [
+          {
+            "stId": "st241",
+            "mitreId": "001",
+            "name": "Patch System Image"
+          },
+          {
+            "stId": "st242",
+            "mitreId": "002",
+            "name": "Downgrade System Image"
+          }
+        ]
+      },
+      {
+        "tId": "t71",
+        "mitreId": "T1599",
+        "name": "Network Boundary Bridging",
+        "subTechniques": [
+          {
+            "stId": "st243",
+            "mitreId": "001",
+            "name": "Network Address Translation Traversal"
+          }
+        ]
+      },
+      {
+        "tId": "t72",
+        "mitreId": "T1027",
+        "name": "Obfuscated Files or Information",
+        "subTechniques": [
+          {
+            "stId": "st244",
+            "mitreId": "001",
+            "name": "Binary Padding"
+          },
+          {
+            "stId": "st245",
+            "mitreId": "002",
+            "name": "Software Packing"
+          },
+          {
+            "stId": "st246",
+            "mitreId": "003",
+            "name": "Steganography"
+          },
+          {
+            "stId": "st247",
+            "mitreId": "004",
+            "name": "Compile After Delivery"
+          },
+          {
+            "stId": "st248",
+            "mitreId": "005",
+            "name": "Indicator Removal from Tools"
+          },
+          {
+            "stId": "st249",
+            "mitreId": "006",
+            "name": "HTML Smuggling"
+          },
+          {
+            "stId": "st250",
+            "mitreId": "007",
+            "name": "Dynamic API Resolution"
+          },
+          {
+            "stId": "st251",
+            "mitreId": "008",
+            "name": "Stripped Payloads"
+          },
+          {
+            "stId": "st252",
+            "mitreId": "009",
+            "name": "Embedded Payloads"
+          }
+        ]
+      },
+      {
+        "tId": "t73",
+        "mitreId": "T1647",
+        "name": "Plist File Modification",
+        "subTechniques": []
+      },
+      {
+        "tId": "t74",
+        "mitreId": "T1542",
+        "name": "Pre-OS Boot",
+        "subTechniques": [
+          {
+            "stId": "st253",
+            "mitreId": "001",
+            "name": "System Firmware"
+          },
+          {
+            "stId": "st254",
+            "mitreId": "002",
+            "name": "Component Firmware"
+          },
+          {
+            "stId": "st255",
+            "mitreId": "003",
+            "name": "Bootkit"
+          },
+          {
+            "stId": "st256",
+            "mitreId": "004",
+            "name": "ROMMONkit"
+          },
+          {
+            "stId": "st257",
+            "mitreId": "005",
+            "name": "TFTP Boot"
+          }
+        ]
+      },
+      {
+        "tId": "t75",
+        "mitreId": "T1055",
+        "name": "Process Injection",
+        "subTechniques": [
+          {
+            "stId": "st258",
+            "mitreId": "001",
+            "name": "Dynamic-link Library Injection"
+          },
+          {
+            "stId": "st259",
+            "mitreId": "002",
+            "name": "Portable Executable Injection"
+          },
+          {
+            "stId": "st260",
+            "mitreId": "003",
+            "name": "Thread Execution Hijacking"
+          },
+          {
+            "stId": "st261",
+            "mitreId": "004",
+            "name": "Asynchronous Procedure Call"
+          },
+          {
+            "stId": "st262",
+            "mitreId": "005",
+            "name": "Thread Local Storage"
+          },
+          {
+            "stId": "st263",
+            "mitreId": "006",
+            "name": "Ptrace System Calls"
+          },
+          {
+            "stId": "st264",
+            "mitreId": "007",
+            "name": "Proc Memory"
+          },
+          {
+            "stId": "st265",
+            "mitreId": "008",
+            "name": "Extra Window Memory Injection"
+          },
+          {
+            "stId": "st266",
+            "mitreId": "009",
+            "name": "Process Hollowing"
+          },
+          {
+            "stId": "st267",
+            "mitreId": "010",
+            "name": "Process Doppelganging"
+          },
+          {
+            "stId": "st268",
+            "mitreId": "011",
+            "name": "VDSO Hijacking"
+          },
+          {
+            "stId": "st269",
+            "mitreId": "012",
+            "name": "ListPlanting"
+          }
+        ]
+      },
+      {
+        "tId": "t76",
+        "mitreId": "T1620",
+        "name": "Reflective Code Loading",
+        "subTechniques": []
+      },
+      {
+        "tId": "t77",
+        "mitreId": "T1207",
+        "name": "Rogue Domain Controller",
+        "subTechniques": []
+      },
+      {
+        "tId": "t78",
+        "mitreId": "T1014",
+        "name": "Rootkit",
+        "subTechniques": []
+      },
+      {
+        "tId": "t79",
+        "mitreId": "T1553",
+        "name": "Subvert Trust Controls",
+        "subTechniques": [
+          {
+            "stId": "st270",
+            "mitreId": "001",
+            "name": "Gatekeeper Bypass"
+          },
+          {
+            "stId": "st271",
+            "mitreId": "002",
+            "name": "Code Signing"
+          },
+          {
+            "stId": "st272",
+            "mitreId": "003",
+            "name": "SIP and Trust Provider Hijacking"
+          },
+          {
+            "stId": "st273",
+            "mitreId": "004",
+            "name": "Install Root Certificate"
+          },
+          {
+            "stId": "st274",
+            "mitreId": "005",
+            "name": "Mark-of-the-Web Bypass"
+          },
+          {
+            "stId": "st275",
+            "mitreId": "006",
+            "name": "Code Signing Policy Modification"
+          }
+        ]
+      },
+      {
+        "tId": "t80",
+        "mitreId": "T1218",
+        "name": "System Binary Proxy Execution",
+        "subTechniques": [
+          {
+            "stId": "st276",
+            "mitreId": "001",
+            "name": "Compiled HTML File"
+          },
+          {
+            "stId": "st277",
+            "mitreId": "002",
+            "name": "Control Panel"
+          },
+          {
+            "stId": "st278",
+            "mitreId": "003",
+            "name": "CMSTP"
+          },
+          {
+            "stId": "st279",
+            "mitreId": "004",
+            "name": "InstallUtil"
+          },
+          {
+            "stId": "st280",
+            "mitreId": "005",
+            "name": "Mshta"
+          },
+          {
+            "stId": "st281",
+            "mitreId": "006",
+            "name": "Msiexec"
+          },
+          {
+            "stId": "st282",
+            "mitreId": "007",
+            "name": "Odbcconf"
+          },
+          {
+            "stId": "st283",
+            "mitreId": "008",
+            "name": "Regsvcs/Regasm"
+          },
+          {
+            "stId": "st284",
+            "mitreId": "009",
+            "name": "Regsvr32"
+          },
+          {
+            "stId": "st285",
+            "mitreId": "010",
+            "name": "Rundll32"
+          },
+          {
+            "stId": "st286",
+            "mitreId": "011",
+            "name": "Verclsid"
+          },
+          {
+            "stId": "st287",
+            "mitreId": "012",
+            "name": "Mavinject"
+          },
+          {
+            "stId": "st288",
+            "mitreId": "013",
+            "name": "MMC"
+          }
+        ]
+      },
+      {
+        "tId": "t81",
+        "mitreId": "T1216",
+        "name": "System Script Proxy Execution ",
+        "subTechniques": [
+          {
+            "stId": "st289",
+            "mitreId": "001",
+            "name": "PubPrn"
+          }
+        ]
+      },
+      {
+        "tId": "t82",
+        "mitreId": "T1221",
+        "name": "Template Injection",
+        "subTechniques": []
+      },
+      {
+        "tId": "t83",
+        "mitreId": "T1205",
+        "name": "Traffic Signaling",
+        "subTechniques": [
+          {
+            "stId": "st290",
+            "mitreId": "001",
+            "name": "Port Knocking"
+          },
+          {
+            "stId": "st291",
+            "mitreId": "002",
+            "name": "Socket Filters"
+          }
+        ]
+      },
+      {
+        "tId": "t84",
+        "mitreId": "T1127",
+        "name": "Trusted Developer Utilities Proxy Execution",
+        "subTechniques": [
+          {
+            "stId": "st292",
+            "mitreId": "001",
+            "name": "MSBuild"
+          }
+        ]
+      },
+      {
+        "tId": "t85",
+        "mitreId": "T1535",
+        "name": "Unused/Unsupported Cloud Regions",
+        "subTechniques": []
+      },
+      {
+        "tId": "t86",
+        "mitreId": "T1550",
+        "name": "Use Alternate Authentication Material",
+        "subTechniques": [
+          {
+            "stId": "st293",
+            "mitreId": "001",
+            "name": "Application Access Token"
+          },
+          {
+            "stId": "st294",
+            "mitreId": "002",
+            "name": "Pass the Hash"
+          },
+          {
+            "stId": "st295",
+            "mitreId": "003",
+            "name": "Pass the Ticket"
+          },
+          {
+            "stId": "st296",
+            "mitreId": "001",
+            "name": "Web Session Cookie"
+          }
+        ]
+      },
+      {
+        "tId": "t87",
+        "mitreId": "T1078",
+        "name": "Valid Accounts",
+        "subTechniques": [
+          {
+            "stId": "st297",
+            "mitreId": "001",
+            "name": "Default Accounts"
+          },
+          {
+            "stId": "st298",
+            "mitreId": "002",
+            "name": "Domain Accounts"
+          },
+          {
+            "stId": "st299",
+            "mitreId": "003",
+            "name": "Local Accounts"
+          },
+          {
+            "stId": "st300",
+            "mitreId": "004",
+            "name": "Cloud Accounts"
+          }
+        ]
+      },
+      {
+        "tId": "t88",
+        "mitreId": "T1497",
+        "name": "Virtualization/Sandbox Evasion",
+        "subTechniques": [
+          {
+            "stId": "st301",
+            "mitreId": "001",
+            "name": "System Checks"
+          },
+          {
+            "stId": "st302",
+            "mitreId": "002",
+            "name": "User Activity Based Checks"
+          },
+          {
+            "stId": "st303",
+            "mitreId": "003",
+            "name": "Time Based Evasion"
+          }
+        ]
+      },
+      {
+        "tId": "t89",
+        "mitreId": "T1600",
+        "name": "Weaken Encryption",
+        "subTechniques": [
+          {
+            "stId": "st304",
+            "mitreId": "001",
+            "name": "Reduce Key Space"
+          },
+          {
+            "stId": "st305",
+            "mitreId": "002",
+            "name": "Disable Crypto Hardware"
+          }
+        ]
+      },
+      {
+        "tId": "t90",
+        "mitreId": "T1220",
+        "name": "XSL Script Processing",
+        "subTechniques": []
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "mitreId": "",
+    "name": "Command & Control",
+    "color": "#edbd09",
+    "techniques": [
+      {
+        "tId": "t91",
+        "mitreId": "",
+        "name": "Application Layer Protocol",
+        "subTechniques": [
+          {
+            "stId": "st306",
+            "mitreId": "001",
+            "name": "Web Protocols"
+          },
+          {
+            "stId": "st307",
+            "mitreId": "002",
+            "name": "File Transfer Protocols"
+          },
+          {
+            "stId": "st308",
+            "mitreId": "003",
+            "name": "Mail Protocols"
+          },
+          {
+            "stId": "st309",
+            "mitreId": "004",
+            "name": "DNS"
+          }
+        ]
+      },
+      {
+        "tId": "t92",
+        "mitreId": "T1092",
+        "name": "Communication Through Removable Media",
+        "subTechniques": []
+      },
+      {
+        "tId": "t93",
+        "mitreId": "T1132",
+        "name": "Data Encoding",
+        "subTechniques": [
+          {
+            "stId": "st310",
+            "mitreId": "001",
+            "name": "Standard Encoding"
+          },
+          {
+            "stId": "st311",
+            "mitreId": "002",
+            "name": "Non-Standard Encoding"
+          }
+        ]
+      },
+      {
+        "tId": "t94",
+        "mitreId": "T1001",
+        "name": "Data Obfuscation",
+        "subTechniques": [
+          {
+            "stId": "st312",
+            "mitreId": "001",
+            "name": "Junk Data"
+          },
+          {
+            "stId": "st313",
+            "mitreId": "002",
+            "name": "Steganography"
+          },
+          {
+            "stId": "st314",
+            "mitreId": "003",
+            "name": "Protocol Impersonation"
+          }
+        ]
+      },
+      {
+        "tId": "t95",
+        "mitreId": "T1568",
+        "name": "Dynamic Resolution",
+        "subTechniques": [
+          {
+            "stId": "st315",
+            "mitreId": "001",
+            "name": "Fast Flux DNS"
+          },
+          {
+            "stId": "st316",
+            "mitreId": "002",
+            "name": "Domain Generation Algorithms"
+          },
+          {
+            "stId": "st317",
+            "mitreId": "003",
+            "name": "DNS Calculation"
+          }
+        ]
+      },
+      {
+        "tId": "t96",
+        "mitreId": "T1573",
+        "name": "Encrypted Channel",
+        "subTechniques": [
+          {
+            "stId": "st318",
+            "mitreId": "001",
+            "name": "Symmetric Cryptography"
+          },
+          {
+            "stId": "st319",
+            "mitreId": "002",
+            "name": "Asymmetric Cryptography"
+          }
+        ]
+      },
+      {
+        "tId": "t97",
+        "mitreId": "T1008",
+        "name": "Fallback Channels",
+        "subTechniques": []
+      },
+      {
+        "tId": "t98",
+        "mitreId": "T1105",
+        "name": "Ingress Tool Transfer",
+        "subTechniques": []
+      },
+      {
+        "tId": "t99",
+        "mitreId": "T1104",
+        "name": "Multi-Stage Channels",
+        "subTechniques": []
+      },
+      {
+        "tId": "t100",
+        "mitreId": "T1095",
+        "name": "Non-Application Layer Protocol",
+        "subTechniques": []
+      },
+      {
+        "tId": "t101",
+        "mitreId": "T1571",
+        "name": "Non-Standard Port",
+        "subTechniques": []
+      },
+      {
+        "tId": "t102",
+        "mitreId": "T1572",
+        "name": "Protocol Tunneling",
+        "subTechniques": []
+      },
+      {
+        "tId": "t103",
+        "mitreId": "T1090",
+        "name": "Proxy",
+        "subTechniques": [
+          {
+            "stId": "st320",
+            "mitreId": "001",
+            "name": "Internal Proxy"
+          },
+          {
+            "stId": "st321",
+            "mitreId": "001",
+            "name": "External Proxy"
+          },
+          {
+            "stId": "st322",
+            "mitreId": "001",
+            "name": "Multi-hop Proxy"
+          },
+          {
+            "stId": "st323",
+            "mitreId": "001",
+            "name": "Domain Fronting"
+          }
+        ]
+      },
+      {
+        "tId": "t104",
+        "mitreId": "T1219",
+        "name": "Remote Access Software",
+        "subTechniques": []
+      },
+      {
+        "tId": "t105",
+        "mitreId": "T1205",
+        "name": "Traffic Signaling",
+        "subTechniques": [
+          {
+            "stId": "st324",
+            "mitreId": "001",
+            "name": "Port Knocking"
+          },
+          {
+            "stId": "st325",
+            "mitreId": "002",
+            "name": "Socket Filters"
+          }
+        ]
+      },
+      {
+        "tId": "t106",
+        "mitreId": "T1102",
+        "name": "Web Service",
+        "subTechniques": [
+          {
+            "stId": "st326",
+            "mitreId": "001",
+            "name": "Dead Drop Resolver"
+          },
+          {
+            "stId": "st327",
+            "mitreId": "002",
+            "name": "Bidirectional Communication"
+          },
+          {
+            "stId": "st328",
+            "mitreId": "003",
+            "name": "One-Way Communication"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "mitreId": "",
+    "name": "Pivoting",
+    "color": "#ffc000",
+    "techniques": [
+      {
+        "tId": "t107",
+        "mitreId": "",
+        "name": "Proxy Chains $ SSH",
+        "subTechniques": []
+      },
+      {
+        "tId": "t108",
+        "mitreId": "",
+        "name": "SCOKS Proxy and Meterpreter",
+        "subTechniques": []
+      },
+      {
+        "tId": "t109",
+        "mitreId": "",
+        "name": "Over a Netcat Relay",
+        "subTechniques": []
+      },
+      {
+        "tId": "t110",
+        "mitreId": "",
+        "name": "Introducing Tools on the Objective Machine ",
+        "subTechniques": []
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "mitreId": "TA0007",
+    "name": "Discovery",
+    "color": "#ffab00",
+    "techniques": [
+      {
+        "tId": "t111",
+        "mitreId": "T1087",
+        "name": "Account Discovery",
+        "subTechniques": [
+          {
+            "stId": "st329",
+            "mitreId": "001",
+            "name": "Local Account"
+          },
+          {
+            "stId": "st330",
+            "mitreId": "002",
+            "name": "Domain Account"
+          },
+          {
+            "stId": "st331",
+            "mitreId": "003",
+            "name": "Email Account"
+          },
+          {
+            "stId": "st332",
+            "mitreId": "004",
+            "name": "Cloud Account"
+          }
+        ]
+      },
+      {
+        "tId": "t112",
+        "mitreId": "T1010",
+        "name": "Application Window Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t113",
+        "mitreId": "T1217",
+        "name": "Browser Bookmark Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t114",
+        "mitreId": "T1580",
+        "name": "Cloud Infrastructure Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t115",
+        "mitreId": "T1538",
+        "name": "Cloud Service Dashboard",
+        "subTechniques": []
+      },
+      {
+        "tId": "t116",
+        "mitreId": "T1526",
+        "name": "Cloud Service Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t117",
+        "mitreId": "T1619",
+        "name": "Cloud Storage Object Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t118",
+        "mitreId": "T1613",
+        "name": "Container and Resource Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t119",
+        "mitreId": "T1622",
+        "name": "Debugger Evasion",
+        "subTechniques": []
+      },
+      {
+        "tId": "t120",
+        "mitreId": "T1482",
+        "name": "Domain Trust Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t121",
+        "mitreId": "T1083",
+        "name": "File and Directory Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t122",
+        "mitreId": "T1615",
+        "name": "Group Policy Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t123",
+        "mitreId": "T1046",
+        "name": "Network Service Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t124",
+        "mitreId": "T1135",
+        "name": "Network Share Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t125",
+        "mitreId": "T1040",
+        "name": "Network Sniffing",
+        "subTechniques": []
+      },
+      {
+        "tId": "t126",
+        "mitreId": "T1201",
+        "name": "Password Policy Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t127",
+        "mitreId": "T1120",
+        "name": "Peripheral Device Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t128",
+        "mitreId": "T1069",
+        "name": "Permission Groups Discovery",
+        "subTechniques": [
+          {
+            "stId": "st333",
+            "mitreId": "001",
+            "name": "Local Groups"
+          },
+          {
+            "stId": "st334",
+            "mitreId": "002",
+            "name": "Domain Groups"
+          },
+          {
+            "stId": "st335",
+            "mitreId": "003",
+            "name": "Cloud Groups"
+          }
+        ]
+      },
+      {
+        "tId": "t129",
+        "mitreId": "T1057",
+        "name": "Proccess Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t130",
+        "mitreId": "T1012",
+        "name": "Query Registry",
+        "subTechniques": []
+      },
+      {
+        "tId": "t131",
+        "mitreId": "T1018",
+        "name": "Remote System Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t132",
+        "mitreId": "T1518",
+        "name": "Software Discovery ",
+        "subTechniques": [
+          {
+            "stId": "st336",
+            "mitreId": "001",
+            "name": "Security Software Discovery"
+          }
+        ]
+      },
+      {
+        "tId": "t133",
+        "mitreId": "T1082",
+        "name": "System Information Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t134",
+        "mitreId": "T1614",
+        "name": "System Location Discovery",
+        "subTechniques": [
+          {
+            "stId": "st337",
+            "mitreId": "001",
+            "name": "System Language Discovery"
+          }
+        ]
+      },
+      {
+        "tId": "t135",
+        "mitreId": "T1016",
+        "name": "System Network Configuration Discovery",
+        "subTechniques": [
+          {
+            "stId": "st338",
+            "mitreId": "001",
+            "name": "Internet Connection Discovery"
+          }
+        ]
+      },
+      {
+        "tId": "t136",
+        "mitreId": "T1049",
+        "name": "System Network Connections Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t137",
+        "mitreId": "T1033",
+        "name": "System Owner/User Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t138",
+        "mitreId": "T1007",
+        "name": "System Service Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t139",
+        "mitreId": "T1124",
+        "name": "System Time Discovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t140",
+        "mitreId": "T1497",
+        "name": "Virtualization/Sandbox Evasion",
+        "subTechniques": [
+          {
+            "stId": "st339",
+            "mitreId": "001",
+            "name": "System Checks"
+          },
+          {
+            "stId": "st340",
+            "mitreId": "002",
+            "name": "User Activity Based Checks"
+          },
+          {
+            "stId": "st341",
+            "mitreId": "003",
+            "name": "Time Based Evasion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "mitreId": "TA0004",
+    "name": "Privilege Escalation",
+    "color": "#ff9600",
+    "techniques": [
+      {
+        "tId": "t141",
+        "mitreId": "T1548",
+        "name": "Abuse Elevation Control Mechanism",
+        "subTechniques": [
+          {
+            "stId": "st342",
+            "mitreId": "001",
+            "name": "Setuid and Setgid"
+          },
+          {
+            "stId": "st343",
+            "mitreId": "002",
+            "name": "Bypass User Account Control"
+          },
+          {
+            "stId": "st344",
+            "mitreId": "003",
+            "name": "Sudo and Sudo Caching"
+          },
+          {
+            "stId": "st345",
+            "mitreId": "004",
+            "name": "Elevated Execution with Prompt"
+          }
+        ]
+      },
+      {
+        "tId": "t142",
+        "mitreId": "T1134",
+        "name": "Access Token Manipulation",
+        "subTechniques": [
+          {
+            "stId": "st346",
+            "mitreId": "001",
+            "name": "Token Impersonation/Theft"
+          },
+          {
+            "stId": "st347",
+            "mitreId": "002",
+            "name": "Create Process with Token"
+          },
+          {
+            "stId": "st348",
+            "mitreId": "003",
+            "name": "Make and Impersonate Token"
+          },
+          {
+            "stId": "st349",
+            "mitreId": "004",
+            "name": "Parent PID Spoofing"
+          },
+          {
+            "stId": "st350",
+            "mitreId": "005",
+            "name": "SID-History Injection"
+          }
+        ]
+      },
+      {
+        "tId": "t143",
+        "mitreId": "T1547",
+        "name": "Boot or Logon Autostart Execution",
+        "subTechniques": [
+          {
+            "stId": "st351",
+            "mitreId": "001",
+            "name": "Registry Run Keys / Startup Folder"
+          },
+          {
+            "stId": "st352",
+            "mitreId": "002",
+            "name": "Authentication Package"
+          },
+          {
+            "stId": "st353",
+            "mitreId": "003",
+            "name": "Time Providers"
+          },
+          {
+            "stId": "st354",
+            "mitreId": "004",
+            "name": "Winlogon Helper DLL"
+          },
+          {
+            "stId": "st355",
+            "mitreId": "005",
+            "name": "Security Support Provider"
+          },
+          {
+            "stId": "st356",
+            "mitreId": "006",
+            "name": "Kernel Modules and Extensions"
+          },
+          {
+            "stId": "st357",
+            "mitreId": "007",
+            "name": "Re-opened Applications"
+          },
+          {
+            "stId": "st358",
+            "mitreId": "008",
+            "name": "LSASS Driver"
+          },
+          {
+            "stId": "st359",
+            "mitreId": "009",
+            "name": "Shortcut Modification"
+          },
+          {
+            "stId": "st360",
+            "mitreId": "010",
+            "name": "Port Monitors"
+          },
+          {
+            "stId": "st361",
+            "mitreId": "011",
+            "name": "Print Processors"
+          },
+          {
+            "stId": "st362",
+            "mitreId": "012",
+            "name": "XDG Autostart Entries"
+          },
+          {
+            "stId": "st363",
+            "mitreId": "013",
+            "name": "Active Setup"
+          },
+          {
+            "stId": "st364",
+            "mitreId": "014",
+            "name": "Login Items"
+          }
+        ]
+      },
+      {
+        "tId": "t144",
+        "mitreId": "T1037",
+        "name": "Boot or Logon Initialization Scripts",
+        "subTechniques": [
+          {
+            "stId": "st365",
+            "mitreId": "001",
+            "name": "Logon Script (Windows)"
+          },
+          {
+            "stId": "st366",
+            "mitreId": "002",
+            "name": "Login Hook"
+          },
+          {
+            "stId": "st367",
+            "mitreId": "003",
+            "name": "Network Logon Script"
+          },
+          {
+            "stId": "st368",
+            "mitreId": "004",
+            "name": "RC Scripts"
+          },
+          {
+            "stId": "st369",
+            "mitreId": "005",
+            "name": "Startup Items"
+          }
+        ]
+      },
+      {
+        "tId": "t145",
+        "mitreId": "T1543",
+        "name": "Create or Modify System Process",
+        "subTechniques": [
+          {
+            "stId": "st370",
+            "mitreId": "001",
+            "name": "Launch Agent"
+          },
+          {
+            "stId": "st371",
+            "mitreId": "002",
+            "name": "Systemd Service"
+          },
+          {
+            "stId": "st372",
+            "mitreId": "003",
+            "name": "Windows Service"
+          },
+          {
+            "stId": "st373",
+            "mitreId": "004",
+            "name": "Launch Daemon"
+          }
+        ]
+      },
+      {
+        "tId": "t146",
+        "mitreId": "T1484",
+        "name": "Domain Policy Modification",
+        "subTechniques": [
+          {
+            "stId": "st374",
+            "mitreId": "001",
+            "name": "Group Policy Modification"
+          },
+          {
+            "stId": "st375",
+            "mitreId": "002",
+            "name": "Domain Trust Modification"
+          }
+        ]
+      },
+      {
+        "tId": "t147",
+        "mitreId": "T1611",
+        "name": "Escape to Host",
+        "subTechniques": []
+      },
+      {
+        "tId": "t148",
+        "mitreId": "T1546",
+        "name": "Event Triggered Execution",
+        "subTechniques": [
+          {
+            "stId": "st376",
+            "mitreId": "001",
+            "name": "Change Default File Association"
+          },
+          {
+            "stId": "st377",
+            "mitreId": "002",
+            "name": "Screensaver"
+          },
+          {
+            "stId": "st378",
+            "mitreId": "003",
+            "name": "Windows Management Instrumentation Event "
+          },
+          {
+            "stId": "st379",
+            "mitreId": "004",
+            "name": "Unix Shell Configuration Modification"
+          },
+          {
+            "stId": "st380",
+            "mitreId": "005",
+            "name": "Trap"
+          },
+          {
+            "stId": "st381",
+            "mitreId": "006",
+            "name": "LC_LOAD_DYLIB Addition"
+          },
+          {
+            "stId": "st382",
+            "mitreId": "007",
+            "name": "Netsh Helper DLL"
+          },
+          {
+            "stId": "st383",
+            "mitreId": "008",
+            "name": "Accessibility Features"
+          },
+          {
+            "stId": "st384",
+            "mitreId": "009",
+            "name": "AppCert DLLs"
+          },
+          {
+            "stId": "st385",
+            "mitreId": "010",
+            "name": "AppInit DLLs"
+          },
+          {
+            "stId": "st386",
+            "mitreId": "011",
+            "name": "Application Shimming"
+          },
+          {
+            "stId": "st387",
+            "mitreId": "012",
+            "name": "Image File Execution Options Injection"
+          },
+          {
+            "stId": "st388",
+            "mitreId": "013",
+            "name": "PowerShell Profile"
+          },
+          {
+            "stId": "st389",
+            "mitreId": "014",
+            "name": "Emond"
+          },
+          {
+            "stId": "st390",
+            "mitreId": "015",
+            "name": "Component Object Model Hijacking"
+          },
+          {
+            "stId": "st391",
+            "mitreId": "016",
+            "name": "Installer Packages"
+          }
+        ]
+      },
+      {
+        "tId": "t149",
+        "mitreId": "T1068",
+        "name": "Exploitation for Privilege Escalation",
+        "subTechniques": []
+      },
+      {
+        "tId": "t150",
+        "mitreId": "T1574",
+        "name": "Hijack Execution Flow",
+        "subTechniques": [
+          {
+            "stId": "st392",
+            "mitreId": "001",
+            "name": "DLL Search Order Hijacking"
+          },
+          {
+            "stId": "st393",
+            "mitreId": "002",
+            "name": "DLL Side-Loading"
+          },
+          {
+            "stId": "st394",
+            "mitreId": "003",
+            "name": "Dylib Hijacking"
+          },
+          {
+            "stId": "st395",
+            "mitreId": "004",
+            "name": "Executable Installer File Permissions Weakness"
+          },
+          {
+            "stId": "st396",
+            "mitreId": "005",
+            "name": "Dynamic Linker Hijacking"
+          },
+          {
+            "stId": "st397",
+            "mitreId": "006",
+            "name": "Path Interception by PATH Environment Variable"
+          },
+          {
+            "stId": "st398",
+            "mitreId": "007",
+            "name": "Path Interception by Search Order Hijacking"
+          },
+          {
+            "stId": "st399",
+            "mitreId": "008",
+            "name": "Path Interception by Unquoted Path"
+          },
+          {
+            "stId": "st400",
+            "mitreId": "009",
+            "name": "Services File Permissions Weakness"
+          },
+          {
+            "stId": "st401",
+            "mitreId": "010",
+            "name": "Services Registry Permissions Weakness"
+          },
+          {
+            "stId": "st402",
+            "mitreId": "011",
+            "name": "COR_PROFILER"
+          },
+          {
+            "stId": "st403",
+            "mitreId": "012",
+            "name": "KernelCallbackTable"
+          }
+        ]
+      },
+      {
+        "tId": "t151",
+        "mitreId": "T1055",
+        "name": "Process Injection ",
+        "subTechniques": [
+          {
+            "stId": "st404",
+            "mitreId": "001",
+            "name": "Dynamic-link Library Injection"
+          },
+          {
+            "stId": "st405",
+            "mitreId": "002",
+            "name": "Portable Executable Injection"
+          },
+          {
+            "stId": "st406",
+            "mitreId": "003",
+            "name": "Thread Execution Hijacking"
+          },
+          {
+            "stId": "st407",
+            "mitreId": "004",
+            "name": "Asynchronous Procedure Call"
+          },
+          {
+            "stId": "st408",
+            "mitreId": "005",
+            "name": "Thread Local Storage"
+          },
+          {
+            "stId": "st409",
+            "mitreId": "006",
+            "name": "Thread Local Storage"
+          },
+          {
+            "stId": "st410",
+            "mitreId": "007",
+            "name": "C"
+          },
+          {
+            "stId": "st411",
+            "mitreId": "008",
+            "name": "Proc Memory"
+          },
+          {
+            "stId": "st412",
+            "mitreId": "009",
+            "name": "Extra Window Memory Injection"
+          },
+          {
+            "stId": "st413",
+            "mitreId": "010",
+            "name": "Process Hollowing"
+          },
+          {
+            "stId": "st414",
+            "mitreId": "011",
+            "name": "Process Doppelganging"
+          },
+          {
+            "stId": "st415",
+            "mitreId": "012",
+            "name": "VDSO Hijacking"
+          },
+          {
+            "stId": "st416",
+            "mitreId": "013",
+            "name": "ListPlanting"
+          }
+        ]
+      },
+      {
+        "tId": "t152",
+        "mitreId": "T1053",
+        "name": "Scheduled Task/Job",
+        "subTechniques": [
+          {
+            "stId": "st416",
+            "mitreId": "001",
+            "name": "At"
+          },
+          {
+            "stId": "st417",
+            "mitreId": "002",
+            "name": "Cron"
+          },
+          {
+            "stId": "st418",
+            "mitreId": "003",
+            "name": "Scheduled Task"
+          },
+          {
+            "stId": "st419",
+            "mitreId": "004",
+            "name": "Systemd Timers"
+          },
+          {
+            "stId": "st420",
+            "mitreId": "005",
+            "name": "Container Orchestration Job"
+          }
+        ]
+      },
+      {
+        "tId": "t153",
+        "mitreId": "T1078",
+        "name": "Valid Accounts",
+        "subTechniques": [
+          {
+            "stId": "st421",
+            "mitreId": "001",
+            "name": "Default Accounts"
+          },
+          {
+            "stId": "st422",
+            "mitreId": "002",
+            "name": "Domain Accounts"
+          },
+          {
+            "stId": "st423",
+            "mitreId": "003",
+            "name": "Local Accounts"
+          },
+          {
+            "stId": "st424",
+            "mitreId": "004",
+            "name": "Cloud Accounts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "mitreId": "TA0002",
+    "name": "Execution",
+    "color": "#ff8100",
+    "techniques": [
+      {
+        "tId": "t154",
+        "mitreId": "T1059",
+        "name": "Command and Scripting Interpreter ",
+        "subTechniques": [
+          {
+            "stId": "st425",
+            "mitreId": "001",
+            "name": "PowerShell"
+          },
+          {
+            "stId": "st426",
+            "mitreId": "002",
+            "name": "AppleScript"
+          },
+          {
+            "stId": "st427",
+            "mitreId": "003",
+            "name": "Windows Command Shell"
+          },
+          {
+            "stId": "st428",
+            "mitreId": "004",
+            "name": "Unix Shell"
+          },
+          {
+            "stId": "st429",
+            "mitreId": "005",
+            "name": "Visual Basic"
+          },
+          {
+            "stId": "st430",
+            "mitreId": "006",
+            "name": " Python"
+          },
+          {
+            "stId": "st431",
+            "mitreId": "007",
+            "name": "Javascript"
+          },
+          {
+            "stId": "st432",
+            "mitreId": "008",
+            "name": "Network Device CLI"
+          }
+        ]
+      },
+      {
+        "tId": "t155",
+        "mitreId": "T1609",
+        "name": "Container Administration Command",
+        "subTechniques": []
+      },
+      {
+        "tId": "t156",
+        "mitreId": "T1610",
+        "name": "Deploy Container",
+        "subTechniques": []
+      },
+      {
+        "tId": "t157",
+        "mitreId": "T1203",
+        "name": "Exploitation for Client Execution",
+        "subTechniques": []
+      },
+      {
+        "tId": "t158",
+        "mitreId": "T1559",
+        "name": "Inter-Process Communication",
+        "subTechniques": [
+          {
+            "stId": "st433",
+            "mitreId": "001",
+            "name": "Component Object Model"
+          },
+          {
+            "stId": "st434",
+            "mitreId": "002",
+            "name": "Dynamic Data Exchange"
+          },
+          {
+            "stId": "st435",
+            "mitreId": "003",
+            "name": "XPC Services"
+          }
+        ]
+      },
+      {
+        "tId": "t159",
+        "mitreId": "T1106",
+        "name": "Native API",
+        "subTechniques": []
+      },
+      {
+        "tId": "t160",
+        "mitreId": "T1053",
+        "name": "Scheduled Task/Job",
+        "subTechniques": [
+          {
+            "stId": "st436 ",
+            "mitreId": "001",
+            "name": "At"
+          },
+          {
+            "stId": "st437",
+            "mitreId": "002",
+            "name": "Cron"
+          },
+          {
+            "stId": "st438",
+            "mitreId": "003",
+            "name": "Scheduled Task"
+          },
+          {
+            "stId": "st439",
+            "mitreId": "004",
+            "name": "Systemd Timers"
+          },
+          {
+            "stId": "st440",
+            "mitreId": "005",
+            "name": "Container Orchestration Job"
+          }
+        ]
+      },
+      {
+        "tId": "t161",
+        "mitreId": "T1648",
+        "name": "Serverless Execution",
+        "subTechniques": []
+      },
+      {
+        "tId": "t162",
+        "mitreId": "T1129",
+        "name": "Shared Modules",
+        "subTechniques": []
+      },
+      {
+        "tId": "t163",
+        "mitreId": "T1072",
+        "name": "Software Deployment Tools",
+        "subTechniques": []
+      },
+      {
+        "tId": "t164",
+        "mitreId": "T1569",
+        "name": "System Services",
+        "subTechniques": [
+          {
+            "stId": "st441",
+            "mitreId": "001",
+            "name": "Launchctl"
+          },
+          {
+            "stId": "st442",
+            "mitreId": "001",
+            "name": "Service Execution"
+          }
+        ]
+      },
+      {
+        "tId": "t165",
+        "mitreId": "T1204",
+        "name": "User Execution",
+        "subTechniques": [
+          {
+            "stId": "st443",
+            "mitreId": "001",
+            "name": "Malicious Link"
+          },
+          {
+            "stId": "st444",
+            "mitreId": "002",
+            "name": "Malicious File"
+          },
+          {
+            "stId": "st445",
+            "mitreId": "003",
+            "name": "Malicious Image"
+          }
+        ]
+      },
+      {
+        "tId": "t166",
+        "mitreId": "T1047",
+        "name": "Windows Management Instrumentation",
+        "subTechniques": []
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "mitreId": "TA0006",
+    "name": "Credential Access",
+    "color": "#ff6b00",
+    "techniques": [
+      {
+        "tId": "t167",
+        "mitreId": "T1557",
+        "name": "Adversary-in-the-Middle",
+        "subTechniques": [
+          {
+            "stId": "st446",
+            "mitreId": "001",
+            "name": "LLMNR/NBT-NS Poisoning and SMB Relay"
+          },
+          {
+            "stId": "st447",
+            "mitreId": "002",
+            "name": "ARP Cache Poisoning"
+          },
+          {
+            "stId": "st448",
+            "mitreId": "003",
+            "name": "DHCP Spoofing"
+          }
+        ]
+      },
+      {
+        "tId": "t168",
+        "mitreId": "T1110",
+        "name": "Brute Force",
+        "subTechniques": [
+          {
+            "stId": "st449",
+            "mitreId": "001",
+            "name": "Password Guessing"
+          },
+          {
+            "stId": "st450",
+            "mitreId": "002",
+            "name": "Password Cracking"
+          },
+          {
+            "stId": "st451",
+            "mitreId": "003",
+            "name": "Password Spraying"
+          },
+          {
+            "stId": "st452",
+            "mitreId": "004",
+            "name": "Credential Stuffing"
+          }
+        ]
+      },
+      {
+        "tId": "t169",
+        "mitreId": "T1555",
+        "name": "Credentials from Password Stores",
+        "subTechniques": [
+          {
+            "stId": "st453",
+            "mitreId": "001",
+            "name": "Keychain"
+          },
+          {
+            "stId": "st454",
+            "mitreId": "002",
+            "name": "Securityd Memory"
+          },
+          {
+            "stId": "st455",
+            "mitreId": "003",
+            "name": "Credentials from Web Browsers"
+          },
+          {
+            "stId": "st456",
+            "mitreId": "004",
+            "name": "Windows Credential Manager"
+          },
+          {
+            "stId": "st457",
+            "mitreId": "005",
+            "name": "Password Managers"
+          }
+        ]
+      },
+      {
+        "tId": "t170",
+        "mitreId": "T1212",
+        "name": "Exploitation for Credential Access",
+        "subTechniques": []
+      },
+      {
+        "tId": "t171",
+        "mitreId": "T1187",
+        "name": "Forced Authentication",
+        "subTechniques": []
+      },
+      {
+        "tId": "t172",
+        "mitreId": "T1606",
+        "name": "Forge Web Credentials",
+        "subTechniques": [
+          {
+            "stId": "st458",
+            "mitreId": "001",
+            "name": "Web Cookies"
+          },
+          {
+            "stId": "st459",
+            "mitreId": "002",
+            "name": "SAML Tokens"
+          }
+        ]
+      },
+      {
+        "tId": "t173",
+        "mitreId": "T1056",
+        "name": "Input Capture",
+        "subTechniques": [
+          {
+            "stId": "st460",
+            "mitreId": "001",
+            "name": "Keylogging"
+          },
+          {
+            "stId": "st461",
+            "mitreId": "002",
+            "name": "GUI Input Capture"
+          },
+          {
+            "stId": "st462",
+            "mitreId": "003",
+            "name": "Web Portal Capture"
+          },
+          {
+            "stId": "st463",
+            "mitreId": "004",
+            "name": "Credential API Hooking"
+          }
+        ]
+      },
+      {
+        "tId": "t174",
+        "mitreId": "T1556",
+        "name": "Modify Authentication Process ",
+        "subTechniques": [
+          {
+            "stId": "st464",
+            "mitreId": "001",
+            "name": "Domain Controller Authentication"
+          },
+          {
+            "stId": "st465",
+            "mitreId": "002",
+            "name": "Password Filter DLL"
+          },
+          {
+            "stId": "st466",
+            "mitreId": "003",
+            "name": "Pluggable Authentication Modules"
+          },
+          {
+            "stId": "st467",
+            "mitreId": "004",
+            "name": "Network Device Authentication"
+          },
+          {
+            "stId": "st468",
+            "mitreId": "005",
+            "name": "Reversible Encryption"
+          },
+          {
+            "stId": "st469",
+            "mitreId": "006",
+            "name": "Multi-Factor Authentication"
+          },
+          {
+            "stId": "st470",
+            "mitreId": "007",
+            "name": "Hybrid Identity"
+          }
+        ]
+      },
+      {
+        "tId": "t175",
+        "mitreId": "T1111",
+        "name": "Multi-Factor Authentication Interception",
+        "subTechniques": []
+      },
+      {
+        "tId": "t176",
+        "mitreId": "T1621",
+        "name": "Multi-Factor Authentication Request Generation",
+        "subTechniques": []
+      },
+      {
+        "tId": "t177",
+        "mitreId": "T1040",
+        "name": "Network Sniffing",
+        "subTechniques": []
+      },
+      {
+        "tId": "t178",
+        "mitreId": "T1003",
+        "name": "OS Credential Dumping",
+        "subTechniques": [
+          {
+            "stId": "st471",
+            "mitreId": "001",
+            "name": "LSASS Memory"
+          },
+          {
+            "stId": "st472",
+            "mitreId": "002",
+            "name": "Security Account Manager"
+          },
+          {
+            "stId": "st473",
+            "mitreId": "003",
+            "name": "NTDS"
+          },
+          {
+            "stId": "st474",
+            "mitreId": "004",
+            "name": "LSA Secrets"
+          },
+          {
+            "stId": "st475",
+            "mitreId": "005",
+            "name": "Cached Domain Credentials"
+          },
+          {
+            "stId": "st476",
+            "mitreId": "006",
+            "name": "DCSync"
+          },
+          {
+            "stId": "st477",
+            "mitreId": "007",
+            "name": "Proc Filesystem"
+          },
+          {
+            "stId": "st478",
+            "mitreId": "008",
+            "name": "/etc/passwd and /etc/shadow"
+          }
+        ]
+      },
+      {
+        "tId": "t179",
+        "mitreId": "T1528",
+        "name": "Steal Application Access Token",
+        "subTechniques": []
+      },
+      {
+        "tId": "t180",
+        "mitreId": "T1649",
+        "name": "Steal or Forge Authentication Certificates",
+        "subTechniques": []
+      },
+      {
+        "tId": "t181",
+        "mitreId": "T1558",
+        "name": "Steal or Forge Kerberos Tickets ",
+        "subTechniques": [
+          {
+            "stId": "st479",
+            "mitreId": "001",
+            "name": "Golden Ticket"
+          },
+          {
+            "stId": "st480",
+            "mitreId": "002",
+            "name": "Silver Ticket"
+          },
+          {
+            "stId": "st481",
+            "mitreId": "003",
+            "name": "Kerberoasting"
+          },
+          {
+            "stId": "st482",
+            "mitreId": "004",
+            "name": "AS-REP Roasting"
+          }
+        ]
+      },
+      {
+        "tId": "t182",
+        "mitreId": "T1539",
+        "name": "Steal Web Session Cookie",
+        "subTechniques": []
+      },
+      {
+        "tId": "t183",
+        "mitreId": "T1552",
+        "name": "Unsecured Credentials",
+        "subTechniques": [
+          {
+            "stId": "st483",
+            "mitreId": "001",
+            "name": "Credentials In Files"
+          },
+          {
+            "stId": "st484",
+            "mitreId": "002",
+            "name": "Credentials in Registry"
+          },
+          {
+            "stId": "st485",
+            "mitreId": "003",
+            "name": "Bash History"
+          },
+          {
+            "stId": "st486",
+            "mitreId": "004",
+            "name": "Private Keys"
+          },
+          {
+            "stId": "st487",
+            "mitreId": "005",
+            "name": "Cloud Instance Metadata API"
+          },
+          {
+            "stId": "st488",
+            "mitreId": "006",
+            "name": "Group Policy Preferences"
+          },
+          {
+            "stId": "st489",
+            "mitreId": "007",
+            "name": "Container API"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "mitreId": "TA0008",
+    "name": "Lateral Movement",
+    "color": "#ff5600",
+    "techniques": [
+      {
+        "tId": "t184",
+        "mitreId": "T1210",
+        "name": "Exploitation of Remote Services",
+        "subTechniques": []
+      },
+      {
+        "tId": "t185",
+        "mitreId": "T1534",
+        "name": "Internal Spearphishing",
+        "subTechniques": []
+      },
+      {
+        "tId": "t186",
+        "mitreId": "T1570",
+        "name": "Lateral Tool Transfer",
+        "subTechniques": []
+      },
+      {
+        "tId": "t187",
+        "mitreId": "T1563",
+        "name": "Remote Service Session Hijacking",
+        "subTechniques": [
+          {
+            "stId": "st490",
+            "mitreId": "001",
+            "name": "SSH Hijacking"
+          },
+          {
+            "stId": "st491",
+            "mitreId": "002",
+            "name": "RDP Hijacking"
+          }
+        ]
+      },
+      {
+        "tId": "t188",
+        "mitreId": "T1021",
+        "name": "Remote Services",
+        "subTechniques": [
+          {
+            "stId": "st492",
+            "mitreId": "001",
+            "name": "Remote Desktop Protocol"
+          },
+          {
+            "stId": "st493",
+            "mitreId": "002",
+            "name": "SMB/Windows Admin Shares"
+          },
+          {
+            "stId": "st494",
+            "mitreId": "003",
+            "name": "Distributed Component Object Model"
+          },
+          {
+            "stId": "st495",
+            "mitreId": "004",
+            "name": "SSH"
+          },
+          {
+            "stId": "st496",
+            "mitreId": "005",
+            "name": "VNC"
+          },
+          {
+            "stId": "st497",
+            "mitreId": "006",
+            "name": "Windows Remote Management"
+          }
+        ]
+      },
+      {
+        "tId": "t189",
+        "mitreId": "T1091",
+        "name": "Replication Through Removable Media",
+        "subTechniques": []
+      },
+      {
+        "tId": "t190",
+        "mitreId": "T1072",
+        "name": "Software Deployment Tools",
+        "subTechniques": []
+      },
+      {
+        "tId": "t191",
+        "mitreId": "T1080",
+        "name": "Taint Shared Content",
+        "subTechniques": []
+      },
+      {
+        "tId": "t192",
+        "mitreId": "T1550",
+        "name": "Use Alternate Authentication Material",
+        "subTechniques": [
+          {
+            "stId": "st498",
+            "mitreId": "001",
+            "name": "Application Access Token"
+          },
+          {
+            "stId": "st499",
+            "mitreId": "002",
+            "name": "Pass the Hash"
+          },
+          {
+            "stId": "st500",
+            "mitreId": "003",
+            "name": "Pass the Ticket"
+          },
+          {
+            "stId": "st501",
+            "mitreId": "004",
+            "name": "Web Session Cookie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "mitreId": "TA0009",
+    "name": "Collection",
+    "color": "#ff4100",
+    "techniques": [
+      {
+        "tId": "t193",
+        "mitreId": "T1557",
+        "name": "Adversary-in-the-Middle",
+        "subTechniques": [
+          {
+            "stId": "st502",
+            "mitreId": "001",
+            "name": "LLMNR/NBT-NS Poisoning and SMB Relay"
+          },
+          {
+            "stId": "st503",
+            "mitreId": "002",
+            "name": "ARP Cache Poisoning"
+          },
+          {
+            "stId": "st504",
+            "mitreId": "003",
+            "name": "DHCP Spoofing"
+          }
+        ]
+      },
+      {
+        "tId": "t194",
+        "mitreId": "T1557",
+        "name": "Archive Collected Data",
+        "subTechniques": [
+          {
+            "stId": "st505",
+            "mitreId": "001",
+            "name": "Archive via Utility"
+          },
+          {
+            "stId": "st506",
+            "mitreId": "002",
+            "name": "Archive via Library"
+          },
+          {
+            "stId": "st507",
+            "mitreId": "003",
+            "name": "Archive via Custom Method"
+          }
+        ]
+      },
+      {
+        "tId": "t195",
+        "mitreId": "T1123",
+        "name": "Audio Capture",
+        "subTechniques": []
+      },
+      {
+        "tId": "t196",
+        "mitreId": "T1119",
+        "name": "Automated Collection",
+        "subTechniques": []
+      },
+      {
+        "tId": "t197",
+        "mitreId": "T1185",
+        "name": "Browser Session Hijacking",
+        "subTechniques": []
+      },
+      {
+        "tId": "t198",
+        "mitreId": "T1115",
+        "name": "Clipboard Data",
+        "subTechniques": []
+      },
+      {
+        "tId": "t199",
+        "mitreId": "T1530",
+        "name": "Data from Cloud Storage",
+        "subTechniques": []
+      },
+      {
+        "tId": "t200",
+        "mitreId": "T1602",
+        "name": "Data from Configuration Repository",
+        "subTechniques": [
+          {
+            "stId": "st508",
+            "mitreId": "001",
+            "name": "SNMP (MIB Dump)"
+          },
+          {
+            "stId": "st509",
+            "mitreId": "002",
+            "name": "Network Device Configuration Dump"
+          }
+        ]
+      },
+      {
+        "tId": "t201",
+        "mitreId": "T1213",
+        "name": "Data from Information Repositories",
+        "subTechniques": [
+          {
+            "stId": "st510",
+            "mitreId": "001",
+            "name": "Confluence"
+          },
+          {
+            "stId": "st511",
+            "mitreId": "002",
+            "name": "Sharepoint"
+          },
+          {
+            "stId": "st512",
+            "mitreId": "003",
+            "name": "Code Repositories"
+          }
+        ]
+      },
+      {
+        "tId": "t202",
+        "mitreId": "T1005",
+        "name": "Data from Local System",
+        "subTechniques": []
+      },
+      {
+        "tId": "t203",
+        "mitreId": "T1039",
+        "name": "Data from Network Shared Drive",
+        "subTechniques": []
+      },
+      {
+        "tId": "t204",
+        "mitreId": "T1025",
+        "name": "Data from Removable Media",
+        "subTechniques": []
+      },
+      {
+        "tId": "t205",
+        "mitreId": "T1074",
+        "name": "Data Staged",
+        "subTechniques": [
+          {
+            "stId": "st513",
+            "mitreId": "001",
+            "name": "Local Data Staging"
+          },
+          {
+            "stId": "st514",
+            "mitreId": "002",
+            "name": "Remote Data Staging"
+          }
+        ]
+      },
+      {
+        "tId": "t206",
+        "mitreId": "T1114",
+        "name": "Email Collection",
+        "subTechniques": [
+          {
+            "stId": "st515",
+            "mitreId": "001",
+            "name": "Local Email Collection"
+          },
+          {
+            "stId": "st516",
+            "mitreId": "002",
+            "name": "Remote Email Collection"
+          },
+          {
+            "stId": "st517",
+            "mitreId": "003",
+            "name": "Email Forwarding Rule"
+          }
+        ]
+      },
+      {
+        "tId": "t207",
+        "mitreId": "T1056",
+        "name": "Input Capture",
+        "subTechniques": [
+          {
+            "stId": "st518",
+            "mitreId": "001",
+            "name": "Keylogging"
+          },
+          {
+            "stId": "st519",
+            "mitreId": "002",
+            "name": "GUI Input Capture"
+          },
+          {
+            "stId": "st520",
+            "mitreId": "003",
+            "name": "Web Portal Capture"
+          },
+          {
+            "stId": "st521",
+            "mitreId": "004",
+            "name": "Credential API Hooking"
+          }
+        ]
+      },
+      {
+        "tId": "t208",
+        "mitreId": "T1113",
+        "name": "Screen Capture",
+        "subTechniques": []
+      },
+      {
+        "tId": "t209",
+        "mitreId": "T1125",
+        "name": "Video Capture",
+        "subTechniques": []
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "mitreId": "TA0010",
+    "name": "Exfiltration",
+    "color": "#ff2b00",
+    "techniques": [
+      {
+        "tId": "t210",
+        "mitreId": "T1020",
+        "name": "Automated Exfiltration",
+        "subTechniques": [
+          {
+            "stId": "st522",
+            "mitreId": "001",
+            "name": "Traffic Duplication"
+          }
+        ]
+      },
+      {
+        "tId": "t211",
+        "mitreId": "T1030",
+        "name": "Data Transfer Size Limits",
+        "subTechniques": []
+      },
+      {
+        "tId": "t212",
+        "mitreId": "T1048",
+        "name": "Exfiltration Over Alternative Protocol",
+        "subTechniques": [
+          {
+            "stId": "st523",
+            "mitreId": "001",
+            "name": "Exfiltration Over Symmetric Encrypted Non-C2 Protocol"
+          },
+          {
+            "stId": "st524",
+            "mitreId": "002",
+            "name": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol"
+          },
+          {
+            "stId": "st525",
+            "mitreId": "003",
+            "name": "Exfiltration Over Unencrypted Non-C2 Protocol"
+          }
+        ]
+      },
+      {
+        "tId": "t213",
+        "mitreId": "T1041",
+        "name": "Exfiltration Over C2 Channel",
+        "subTechniques": []
+      },
+      {
+        "tId": "t214",
+        "mitreId": "T1011",
+        "name": "Exfiltration Over Other Network Medium",
+        "subTechniques": [
+          {
+            "stId": "st526",
+            "mitreId": "001",
+            "name": "Exfiltration Over Bluetooth"
+          }
+        ]
+      },
+      {
+        "tId": "t215",
+        "mitreId": "T1052",
+        "name": "Exfiltration Over Physical Medium",
+        "subTechniques": [
+          {
+            "stId": "st527",
+            "mitreId": "001",
+            "name": "Exfiltration over USB"
+          }
+        ]
+      },
+      {
+        "tId": "t216",
+        "mitreId": "T1567",
+        "name": "Exfiltration Over Web Service ",
+        "subTechniques": [
+          {
+            "stId": "st528",
+            "mitreId": "001",
+            "name": "Exfiltration to Code Repository"
+          },
+          {
+            "stId": "st529",
+            "mitreId": "002",
+            "name": "Exfiltration to Cloud Storage"
+          }
+        ]
+      },
+      {
+        "tId": "t217",
+        "mitreId": "T1029",
+        "name": "Scheduled Transfer",
+        "subTechniques": []
+      },
+      {
+        "tId": "t218",
+        "mitreId": "T1537",
+        "name": "Transfer Data to Cloud Account",
+        "subTechniques": []
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "mitreId": "TA0040",
+    "name": "Impact",
+    "color": "#ff1600",
+    "techniques": [
+      {
+        "tId": "t219",
+        "mitreId": "T1531",
+        "name": "Account Access Removal",
+        "subTechniques": []
+      },
+      {
+        "tId": "t220",
+        "mitreId": "T1485",
+        "name": "Data Destruction",
+        "subTechniques": []
+      },
+      {
+        "tId": "t221",
+        "mitreId": "T1486",
+        "name": "Data Encrypted for Impact",
+        "subTechniques": []
+      },
+      {
+        "tId": "t222",
+        "mitreId": "T1565",
+        "name": "Data Manipulation",
+        "subTechniques": [
+          {
+            "stId": "st530",
+            "mitreId": "001",
+            "name": "Stored Data Manipulation"
+          },
+          {
+            "stId": "st531",
+            "mitreId": "002",
+            "name": "Transmitted Data Manipulation"
+          },
+          {
+            "stId": "st532",
+            "mitreId": "003",
+            "name": "Runtime Data Manipulation"
+          }
+        ]
+      },
+      {
+        "tId": "t223",
+        "mitreId": "T1491",
+        "name": "Defacement",
+        "subTechniques": [
+          {
+            "stId": "st533",
+            "mitreId": "001",
+            "name": "Internal Defacement"
+          },
+          {
+            "stId": "st534",
+            "mitreId": "002",
+            "name": "External Defacement"
+          }
+        ]
+      },
+      {
+        "tId": "t224",
+        "mitreId": "T1561",
+        "name": "Disk Wipe",
+        "subTechniques": [
+          {
+            "stId": "st535",
+            "mitreId": "001",
+            "name": "Disk Content Wipe"
+          },
+          {
+            "stId": "st536",
+            "mitreId": "002",
+            "name": "Disk Structure Wipe"
+          }
+        ]
+      },
+      {
+        "tId": "t225",
+        "mitreId": "T1499",
+        "name": "Endpoint Denial of Service",
+        "subTechniques": [
+          {
+            "stId": "st537",
+            "mitreId": "001",
+            "name": "OS Exhaustion Flood"
+          },
+          {
+            "stId": "st538",
+            "mitreId": "002",
+            "name": "Service Exhaustion Flood"
+          },
+          {
+            "stId": "st539",
+            "mitreId": "003",
+            "name": "Application Exhaustion Flood"
+          },
+          {
+            "stId": "st540",
+            "mitreId": "004",
+            "name": "Application or System Exploitation"
+          }
+        ]
+      },
+      {
+        "tId": "t226",
+        "mitreId": "T1495",
+        "name": "Firmware Corruption",
+        "subTechniques": []
+      },
+      {
+        "tId": "t227",
+        "mitreId": "T1490",
+        "name": "Inhibit System Recovery",
+        "subTechniques": []
+      },
+      {
+        "tId": "t228",
+        "mitreId": "T1498",
+        "name": "Network Denial of Service",
+        "subTechniques": [
+          {
+            "stId": "st541",
+            "mitreId": "001",
+            "name": "Direct Network Flood"
+          },
+          {
+            "stId": "st542",
+            "mitreId": "002",
+            "name": "Reflection Amplification"
+          }
+        ]
+      },
+      {
+        "tId": "t229",
+        "mitreId": "T1496",
+        "name": "Resource Hijacking",
+        "subTechniques": []
+      },
+      {
+        "tId": "t230",
+        "mitreId": "T1489",
+        "name": "Service Stop",
+        "subTechniques": []
+      },
+      {
+        "tId": "t231",
+        "mitreId": "T1529",
+        "name": "System Shutdown/Reboot",
+        "subTechniques": []
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "mitreId": "",
+    "name": "Objectives",
+    "color": "#ff0000",
+    "techniques": [
+      {
+        "tId": "",
+        "mitreId": "",
+        "name": "",
+        "subTechniques": [
+          {
+            "stId": "",
+            "mitreId": "",
+            "name": ""
+          }
+        ]
+      }
+    ]
+  }
+]
