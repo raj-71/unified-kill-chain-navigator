@@ -33,20 +33,25 @@ Requirements (for windows)
 Installation with npm
 
 ```bash
-  $ git clone https://github.com/raj-71/unified-kill-chain-navigator.git
-  $ cd unified-kill-chain-navigator
-  $ npm install
+    $ git clone https://github.com/raj-71/unified-kill-chain-navigator.git
+  
+    $ cd unified-kill-chain-navigator
+  
+    $ npm install
 ```
 
 Start Project on localhost
 
-
-
-### `$ npm start`
+```bash
+    $ npm start
+```
 
 Build Project for deployment (production)
 
-### `$ npm run winBuild`
+```bash
+    $ npm start
+```
 ## Demo
 
 Insert gif or link to demo
+
