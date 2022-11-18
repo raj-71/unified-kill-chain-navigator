@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Unified Kill Chain Navigator & Comparison Tool
 
-## Available Scripts
+In this project we have created a cyber attack or APT group’s report mapping and comparison tool. We took inspiration from MITRE ATT&CK Navigator Tool and created its modified version based on The Unified Kill Chain by Paul Pols. Comparison of multiple mapped reports can be done visually on a tactical level of abstraction. The analysis and observations gained after comparison is expected to offer a substantiated basis for realigning defensive capabilities and investments within organizations and to allow for the improvement of the predictive value of Red Team threat emulations.
 
-In the project directory, you can run:
+## 🚀 Team 8Lostbytes
+[Raj Kumar][1], [Sumit Chaudhary][2], [Bharat][3], [Sarthak][4]
 
-### `npm start`
+[1]: https://github.com/raj-71
+[2]: https://github.com/chaudharysumit07
+[3]: https://github.com/bharat28112000
+[4]: https://github.com/Sart2108
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- Can map cyber attack or APT group’s reports(Tactics, Techniques, and Common Knowledge)
+- Color grading of tactics based on The Unified Kill Chain
+    - Green tactics - mainly used during Initial Foothold 
+    - Yellow tactics - mainly used during Network Propagation
+    - Red tactics - mainly used for obtaining end objective
+- Can upload and download mapped reports in JSON format and for making changes at a later point of time if needed
+- Can Compare multiple mapped reports at once( maximum 10 reports at a time)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation Locally
 
-### `npm run build`
+Requirements (for windows)
+- node v14.20.0 (latest) 
+- npm v6.14.17 (latest)
+- git v2.37.3 (latest)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Installation with npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  $ git clone https://github.com/raj-71/unified-kill-chain-navigator.git
+  $ cd unified-kill-chain-navigator
+  $ npm install
+```
 
-### `npm run eject`
+Start Project on localhost
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `$ npm start`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Build Project for deployment (production)
 
-## Learn More
+### `$ npm run winBuild`
+## Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Insert gif or link to demo
