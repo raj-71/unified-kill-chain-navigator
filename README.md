@@ -49,7 +49,7 @@ Start Project on localhost
 Build Project for deployment (production)
 
 ```bash
-    $ npm start
+    $ npm run winBuild
 ```
 ## Demo
 
